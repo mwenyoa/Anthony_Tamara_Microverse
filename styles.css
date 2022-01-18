@@ -3,6 +3,7 @@
     padding-left: 15px;
     padding-right: 15px;
   margin-top:10px;
+  width: auto;
 }
 #title{
     text-align: center;
@@ -11,7 +12,12 @@
 
 #img-div > #image{
     width: 100%;
-    position: relative;
+    height: auto; 
+   align-items: center;
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   max-width:calc();
 }
 
 #img-div{
@@ -20,5 +26,13 @@
 
 #img-div > #img-caption{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+}
+img{
+    align-items: center;
+}
+
+#main > #center-history{
+    margin-left: 200px;
+    margin-right: 200px;
 }
