@@ -1,7 +1,8 @@
 #main{
     background-color:rgb(216, 211, 211);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  margin-top:10px;
 }
 #title{
     text-align: center;
@@ -10,4 +11,14 @@
 
 #img-div > #image{
     width: 100%;
+    position: relative;
+}
+
+#img-div{
+    background-color:white;
+}
+
+#img-div > #img-caption{
+    text-align: center;
+    padding: 5px;
 }
