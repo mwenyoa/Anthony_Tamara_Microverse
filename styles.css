@@ -1,3 +1,9 @@
+
+
+body{
+    margin: 0%;
+    width: auto;
+}
 #main{
     background-color:rgb(216, 211, 211);
     padding-left: 15px;
@@ -13,11 +19,12 @@
 #img-div > #image{
     width: 100%;
     height: auto; 
-   align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
    position: relative;
    display: inline-block;
    overflow: hidden;
-   max-width:calc();
+   max-width:1000px;
 }
 
 #img-div{
@@ -28,9 +35,7 @@
     text-align: center;
     padding: 10px;
 }
-img{
-    align-items: center;
-}
+
 
 #main > #center-history{
     margin-left: 200px;
